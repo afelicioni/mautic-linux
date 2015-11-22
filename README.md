@@ -5,6 +5,7 @@ Plugin to get last kernel version on mails from Mautic.
 the plan
 --------
 I was committed to made available on message bodies dynamic content coming from existing website. Documentation how to get this work done is weak, so I had to roll up sleeves and take action.
+
 As a generic reference, I am publishing it as the solution for getting last Linux Kernel stable version.
 
 setup
@@ -17,9 +18,11 @@ setup
 usage
 -----
 From email Builder, a new section LinuxVer will appear, with just a `Version` button.
+
 By dragging and dropping the token on the email body, you'll choose where the last Linux Kernel version will appear, so `{linuxver_lastver}` will be replaced with live remote data.
 
 license
 -------
 For this package see [LICENSE](LICENSE)
+
 About Mautic, see [Mautic's LICENSE.txt](https://github.com/mautic/mautic/blob/master/LICENSE.txt)
